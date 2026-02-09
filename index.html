@@ -40,26 +40,34 @@ max-width:420px;
 padding:22px;
 text-align:center;
 }
-.avatar{
-width:100px;
-height:100px;
-margin:0 auto 12px;
-border-radius:50%;
-border:3px solid #d4af37;
-box-shadow:0 0 22px rgba(212,175,55,.7);
-background:url('https://i.imgur.com/7QpYB6F.png') center/cover;
-}
-h1{
-margin:8px 0 4px;
-font-size:28px;
-letter-spacing:1px;
+
+/* LIVE TOSS HIGHLIGHT */
+.title{
+font-size:34px;
+font-weight:900;
+letter-spacing:2px;
+background:linear-gradient(135deg,#d4af37,#fff1a8);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+margin-bottom:6px;
 }
 .sub{
-color:#d4af37;
+color:#7fd3ff;
 font-size:13px;
 letter-spacing:3px;
-margin-bottom:12px;
+margin-bottom:10px;
 }
+
+/* TOSS GIF */
+.toss-gif{
+width:90px;
+margin:10px auto 15px;
+}
+.toss-gif img{
+width:100%;
+}
+
+/* CONTENT */
 .hero{
 font-size:16px;
 color:#dfe7ff;
@@ -122,10 +130,12 @@ margin-top:10px;
 <div class="page">
 <div class="box">
 
-<div class="avatar"></div>
-
-<h1>LIVE TOSS™</h1>
+<div class="title">LIVE TOSS™</div>
 <div class="sub">CRICKET ANALYSIS</div>
+
+<div class="toss-gif">
+<img src="https://media.giphy.com/media/l0MYC0LajbaPoEADu/giphy.gif" alt="Coin Toss">
+</div>
 
 <div class="hero">
 Match & Toss Insights<br>
